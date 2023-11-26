@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>csstemplates</title>
+</head>
+<style>
+div{
+    background-color:darkslategrey
+}
+.main{ border: 1px solid black;
+    height: 520px;
+    width:329px;
+    padding: 15px;
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a7,.a8,.a9,.a10,.a11,.a12{
+    border: 1px solid black;
+    display: inline-block;
+    height:30px;
+    width: 300px;
+    margin-top: 10px;
+    background-color: aqua;
+}
+.a1:hover{
+    background-color: darkgoldenrod;
+}
+.a1{
+    margin-top: 10px;
+}
+.a1:hover{
+    background-color:green
+}
+.a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8,.a9,.a10,.a11,.a12{
+    color:brown
+}
+input[type=radio]:checked + .a1 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.a:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:none;
+    
+}
+.a2:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a2{
+    margin-top: 10px;
+}
+.a2:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+
+input[type=radio]:checked + .a2 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.b:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:scale(1,2);
+    
+}
+.a3:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a3{
+    margin-top: 10px;
+}
+.a3:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+
+input[type=radio]:checked + .a3 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.c:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:rotate(120deg);}
+      .a4:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a4{
+    margin-top: 10px;
+}
+.a4:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+
+input[type=radio]:checked + .a4 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.d:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:rotateX(120deg);}
+
+      .a5:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a5{
+    margin-top: 10px;
+}
+.a5:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+
+input[type=radio]:checked + .a5 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.e:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:rotateY(145deg);}
+
+.a6:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a6{
+    margin-top: 10px;
+}
+.a6:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+
+input[type=radio]:checked + .a6 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.f:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+      transform:rotateZ(155deg);}
+
+      .a7:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a7{
+    margin-top: 10px;
+}
+.a7:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a7 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.g:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform:skew(10deg,30deg)}
+
+     .a7:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a7{
+    margin-top: 10px;
+}
+.a7:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a7 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.h:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform:translate(170px,50px)}
+.a8:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a8{
+    margin-top: 10px;
+}
+.a8:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a8 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.i:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform:skewX(40deg);}
+     .a9:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a9{
+    margin-top: 10px;
+}
+.a9:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a9 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.j:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform:Skewy(60deg);}
+     .a10:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a10{
+    margin-top: 10px;
+}
+.a10:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a10 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.k:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform:matrix(0.866,0.7,-0.8,0.866,7,8);}
+
+     .a12:hover{
+    background-color: rgb(47, 255, 0);
+}
+.a12{
+    margin-top: 10px;
+}
+.a12:hover{
+    background-color: rgb(47, 255, 0);
+}
+
+input[type=radio]:checked + .a12 {
+    background-color: rgb(204, 255, 0);
+}
+.text{
+    display: none;
+    position: absolute;
+    margin-left:390px;
+    top:50px;
+}
+.l:checked ~ .text {
+      display: block;
+      height:100px;
+      width: 200px;
+      background-color: rgb(0, 223, 252);
+     transform: matrix(0.586,0.8,-0.8,0.586,40,30);
+}
+
+</style>
+<body>
+<div>
+ <div class="main">
+    <input type="radio" name="name" id="1" class="a">
+        <div class="a1">transform:none</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="b">
+        <div class="a2">transform:scale</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+       
+        <input type="radio" name="name" id="1" class="c">
+        <div class="a3">transform:Rotate</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="d">
+        <div class="a4">transform:rotateX</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="e">
+        <div class="a5">transform:rotateY</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="f">
+        <div class="a6">transform:RotateZ</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="g">
+        <div class="a7">transform:Skew</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="h">
+        <div class="a8">transform:translate</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="i">
+        <div class="a9">transform:SkewX</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+
+        <input type="radio" name="name" id="1" class="j">
+        <div class="a10">transform:SkewY</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+        <input type="radio" name="name" id="1" class="k">
+        <div class="a11">transform:Matrix</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+        <input type="radio" name="name" id="1" class="l">
+        <div class="a12">transform:Matrix</div>
+        <div class="text">Success is often defined as the ability to reach your goals in life, whatever those goals may be. In some ways, a better word for success</div>
+ </diV>
+
+</div>
+
+</body>
+</html>
