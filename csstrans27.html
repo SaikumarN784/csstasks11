@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.parent{  border: 1px solid black;
+    display: inline-block;
+ padding: 20px;
+ height: 150px;
+ width: 150px;
+ text-align: center;
+ background-color: brown;
+ transition-property: all;
+ transition-duration: 10s;
+ transition-timing-function:ease-out;
+ transition-delay: 1s;
+
+ background:radial-gradient(red,white,green); 
+border-radius: 120px;
+
+}
+.start:hover ~ .parent{ 
+    /* background:radial-gradient(red,white,green); 
+border-radius: 10px; */
+
+transform:rotate(360deg);
+background-color: rgb(17, 207, 144);
+
+    </style>
+</head>
+<body>
+    <button class="start">start</button>
+    <div class="parent">
+     1
+    </div>
+
+</body>
+</html>
